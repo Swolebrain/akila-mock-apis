@@ -10,20 +10,28 @@ app.set('port', 1337);
 const routeMap = {
   "/api/home": require(__dirname + "/raw-data" + "/home.js"),
   //coaching
-  "/api/coaching/activity": require(__dirname + "/raw-data" + "/coaching-activity.js"),
-  "/api/coaching/exercise": require(__dirname + "/raw-data" + "/coaching-exercise"),
-  "/api/coaching/diet": require(__dirname + "/raw-data" + "/coaching-diet"),
-  "/api/coaching/sleep": require(__dirname + "/raw-data" + "/coaching-sleep"),
-  "/api/coaching/stress": require(__dirname + "/raw-data" + "/coaching-stress"),
+  "/api/coaching/activity": require(__dirname + "/raw-data/coaching-activity.js"),
+  "/api/coaching/exercise": require(__dirname + "/raw-data/coaching-exercise"),
+  "/api/coaching/diet": require(__dirname + "/raw-data/coaching-diet"),
+  "/api/coaching/sleep": require(__dirname + "/raw-data/coaching-sleep"),
+  "/api/coaching/stress": require(__dirname + "/raw-data/coaching-stress"),
   //insight
-  "/api/insights/summary": require(__dirname + "/raw-data/insights" + "/summary.js"),
-  "/api/insights/weight": require(__dirname + "/raw-data/insights" + "/weight/weekly.js"),
-  "/api/insights/health": require(__dirname + "/raw-data/insights" + "/health/weekly.js"),
-  "/api/insights/activity": require(__dirname + "/raw-data/insights" + "/activity/weekly.js"),
-  "/api/insights/exercise": require(__dirname + "/raw-data/insights" + "/exercise/weekly.js"),
-  "/api/insights/sleep": require(__dirname + "/raw-data/insights" + "/sleep/weekly.js"),
-  "/api/insights/stress": require(__dirname + "/raw-data/insights" + "/stress/weekly.js"),
+  "/api/insights/summary": require(__dirname + "/raw-data/insights/summary.js"),
+  "/api/insights/weight": require(__dirname + "/raw-data/insights/weight/weekly.js"),
+  "/api/insights/health": require(__dirname + "/raw-data/insights/health/weekly.js"),
+  "/api/insights/activity": require(__dirname + "/raw-data/insights/activity/weekly.js"),
+  "/api/insights/exercise": require(__dirname + "/raw-data/insights/exercise/weekly.js"),
+  "/api/insights/sleep": require(__dirname + "/raw-data/insights/sleep/weekly.js"),
+  "/api/insights/stress": require(__dirname + "/raw-data/insights/stress/weekly.js"),
   //goals
+  "/api/goals/currentweek/monday": require(__dirname + "/raw-data/goals/monday.js"),
+  "/api/goals/currentweek/tuesday": require(__dirname + "/raw-data/goals/tuesday.js"),
+  "/api/goals/currentweek/wednesday": require(__dirname + "/raw-data/goals/wednesday.js"),
+  "/api/goals/currentweek/thursday": require(__dirname + "/raw-data/goals/thursday.js"),
+  "/api/goals/currentweek/friday": require(__dirname + "/raw-data/goals/friday.js"),
+  "/api/goals/currentweek/saturday": require(__dirname + "/raw-data/goals/saturday.js"),
+  "/api/goals/currentweek/sunday": require(__dirname + "/raw-data/goals/sunday.js"),
+
 };
 
 for (let route in routeMap)
