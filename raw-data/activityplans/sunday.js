@@ -1,27 +1,14 @@
 module.exports =  {
-  "caloriedeficit": {
-    "food": {
-      "goal": 400,
-      "current": 212,
-      "status": 1,
-      "color": "red",
-      "unit": "cal"
-    },
-    "exercise": {
-      "goal": 300,
-      "current": 212,
-      "status": 2,
-      "color": "amber",
-      "unit": "cal"
-    },
-    "activity": {
-      "goal": 100,
-      "current": 100,
-      "status": 3,
-      "color": "green",
-      "unit": "cal"
-    }
-  },
   "activitylist": [
+    {
+      "itemname": "Steps",
+      "quantity": 10004,
+      "calories": 150
+    },
+    {
+      "itemname": "stairs",
+      "quantity": 10,
+      "calories": 150
+    }
   ]
 };
