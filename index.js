@@ -3,6 +3,12 @@ const app = express();
 const bp = require('body-parser');
 const path = require('path');
 
+app.use(function(req, res, next){
+	res.header("Access-Control-Allow-Origin", "*");
+	res.header("Access-Control-Allow-Method", "*");
+	next();
+});
+
 app.use(bp.json());
 app.use(bp.urlencoded({extended: true}));
 app.set('port', 1337);
