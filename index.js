@@ -24,6 +24,8 @@ app.use(function(req, res, next){
 	next();
 });
 
+app.use(express.static('static'));
+
 app.use(bp.json());
 app.use(bp.urlencoded({extended: true}));
 
