@@ -69,10 +69,6 @@ for (let route in routeMap)
   app.get(route, (req, res) => res.json(routeMap[route]));
 
 
-app.get('/', (req, res) => {
-  res.end("Akila mock APIs" + printRoutes(app));
-});
-
 let httpsOptions = {};
 if (PRODUCTION){
   httpsOptions = {
