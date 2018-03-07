@@ -5,6 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const app = express();
 const bp = require('body-parser');
+const jwt = require('express-jwt');
 
 let port = 1337;
 try {
@@ -68,7 +69,13 @@ const routeMap = {
 for (let route in routeMap)
   app.get(route, (req, res) => res.json(routeMap[route]));
 
-app.get('/email', require('./email.js'));
+app.post('/email', jwt({
+    secret: fs.readFileSync('./.cert.pem'),
+    issuer: 'https://akila-ai.auth0.com/',
+    audience: 'OXla466wNDEw7Y1JZZXE6cwRV5GCI6HQ',
+    algorithms: ['RS256', 'RS512']
+  }),
+  require('./email.js'));
 
 let httpsOptions = {};
 if (PRODUCTION){

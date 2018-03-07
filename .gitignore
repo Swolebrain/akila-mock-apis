@@ -1,5 +1,6 @@
 .port.js
-
+.cert.pem
+.sendmail-apikey.js
 # Logs
 logs
 *.log

@@ -1,5 +1,8 @@
 # akila-mock-apis
 
+*This repository requires additional data. You need a .sendmail-apikey.js file containing the sendmail api key, a .port.js file with the https port number, and a .cert.pem file with the auth0 certificate.*
+
+
 List of endpoints:
 
 home:
