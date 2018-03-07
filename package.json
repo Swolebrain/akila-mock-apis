@@ -18,5 +18,10 @@
   "homepage": "https://github.com/Swolebrain/akila-mock-apis#readme",
   "devDependencies": {
     "nodemon": "^1.15.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "nodemailer": "^4.6.2"
   }
 }

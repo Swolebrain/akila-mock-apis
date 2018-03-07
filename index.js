@@ -68,6 +68,7 @@ const routeMap = {
 for (let route in routeMap)
   app.get(route, (req, res) => res.json(routeMap[route]));
 
+app.get('/email', require('./email.js'));
 
 let httpsOptions = {};
 if (PRODUCTION){
