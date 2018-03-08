@@ -77,6 +77,8 @@ app.post('/api/email', jwt({
   }),
   require('./email.js'));
 
+// app.get('/api/email', require('./email.js'));
+
 let httpsOptions = {};
 if (PRODUCTION){
   httpsOptions = {
