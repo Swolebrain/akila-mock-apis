@@ -9,7 +9,7 @@ module.exports = function(req, res){
   let config = {
     host: 'smtp-relay.sendinblue.com',
     port: 587,
-    secure: false, // use TLS
+    secure: true, // use TLS
     auth: {
         user: 'akilalabnyc@gmail.com',
         pass: require('./.sendmail-apikey.js')

@@ -69,7 +69,7 @@ const routeMap = {
 for (let route in routeMap)
   app.get(route, (req, res) => res.json(routeMap[route]));
 
-app.post('/email', jwt({
+app.post('/api/email', jwt({
     secret: fs.readFileSync('./.cert.pem'),
     issuer: 'https://akila-ai.auth0.com/',
     audience: 'OXla466wNDEw7Y1JZZXE6cwRV5GCI6HQ',
