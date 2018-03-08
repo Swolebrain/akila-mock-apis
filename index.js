@@ -31,7 +31,8 @@ app.use(bp.json());
 app.use(bp.urlencoded({extended: true}));
 
 const routeMap = {
-  "/api/home": require(__dirname + "/raw-data" + "/home.js"),
+  "/api/home": require(__dirname + "/raw-data/home.js"),
+  "/api/mealchoices": require(__dirname + "/raw-data/mealchoices.js"),
   //coaching
   "/api/coaching/activity": require(__dirname + "/raw-data/coaching-activity.js"),
   "/api/coaching/exercise": require(__dirname + "/raw-data/coaching-exercise"),
@@ -63,7 +64,16 @@ const routeMap = {
   "/api/goals/currentweek/activityplan/thursday" : require(__dirname + "/raw-data/activityplans/thursday.js"),
   "/api/goals/currentweek/activityplan/friday" : require(__dirname + "/raw-data/activityplans/friday.js"),
   "/api/goals/currentweek/activityplan/saturday" : require(__dirname + "/raw-data/activityplans/saturday.js"),
-  "/api/goals/currentweek/activityplan/sunday" : require(__dirname + "/raw-data/activityplans/sunday.js")
+  "/api/goals/currentweek/activityplan/sunday" : require(__dirname + "/raw-data/activityplans/sunday.js"),
+  //goals - meal plans
+  "/api/goals/currentweek/mealplans" : require(__dirname + "/raw-data/mealplans/combined.js"),
+  "/api/goals/currentweek/mealplans/monday" : require(__dirname + "/raw-data/mealplans/monday.js"),
+  "/api/goals/currentweek/mealplans/tuesday" : require(__dirname + "/raw-data/mealplans/tuesday.js"),
+  "/api/goals/currentweek/mealplans/wednesday" : require(__dirname + "/raw-data/mealplans/wednesday.js"),
+  "/api/goals/currentweek/mealplans/thursday" : require(__dirname + "/raw-data/mealplans/thursday.js"),
+  "/api/goals/currentweek/mealplans/friday" : require(__dirname + "/raw-data/mealplans/friday.js"),
+  "/api/goals/currentweek/mealplans/saturday" : require(__dirname + "/raw-data/mealplans/saturday.js"),
+  "/api/goals/currentweek/mealplans/sunday" : require(__dirname + "/raw-data/mealplans/sunday.js")
 };
 
 for (let route in routeMap)
