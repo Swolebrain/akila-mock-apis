@@ -7,33 +7,48 @@ List of endpoints:
 
 home:
 
-http://ec2-18-222-12-247.us-east-2.compute.amazonaws.com:1337/api/home  
+https://dev.akila.ai/api/home  
+
+meal choices:  
+
+https://dev.akila.ai/api/mealchoices  
+
 
 coaching: 
 
-http://ec2-18-222-12-247.us-east-2.compute.amazonaws.com:1337/api/coaching/activity  
-http://ec2-18-222-12-247.us-east-2.compute.amazonaws.com:1337/api/coaching/exercise  
-http://ec2-18-222-12-247.us-east-2.compute.amazonaws.com:1337/api/coaching/diet  
-http://ec2-18-222-12-247.us-east-2.compute.amazonaws.com:1337/api/coaching/sleep  
-http://ec2-18-222-12-247.us-east-2.compute.amazonaws.com:1337/api/coaching/stress  
+https://dev.akila.ai/api/coaching/activity  
+https://dev.akila.ai/api/coaching/exercise  
+https://dev.akila.ai/api/coaching/diet  
+https://dev.akila.ai/api/coaching/sleep  
+https://dev.akila.ai/api/coaching/stress  
 
 insights:
 
-http://ec2-18-222-12-247.us-east-2.compute.amazonaws.com:1337/api/insights/summary  
-http://ec2-18-222-12-247.us-east-2.compute.amazonaws.com:1337/api/insights/weight  
-http://ec2-18-222-12-247.us-east-2.compute.amazonaws.com:1337/api/insights/health  
-http://ec2-18-222-12-247.us-east-2.compute.amazonaws.com:1337/api/insights/activity  
-http://ec2-18-222-12-247.us-east-2.compute.amazonaws.com:1337/api/insights/exercise  
-http://ec2-18-222-12-247.us-east-2.compute.amazonaws.com:1337/api/insights/sleep  
-http://ec2-18-222-12-247.us-east-2.compute.amazonaws.com:1337/api/insights/stress  
+https://dev.akila.ai/api/insights/summary  
+https://dev.akila.ai/api/insights/weight  
+https://dev.akila.ai/api/insights/health  
+https://dev.akila.ai/api/insights/activity  
+https://dev.akila.ai/api/insights/exercise  
+https://dev.akila.ai/api/insights/sleep  
+https://dev.akila.ai/api/insights/stress  
 
 goals:
 
-http://ec2-18-222-12-247.us-east-2.compute.amazonaws.com:1337/api/goals/currentweek/monday  
-http://ec2-18-222-12-247.us-east-2.compute.amazonaws.com:1337/api/goals/currentweek/tuesday  
-http://ec2-18-222-12-247.us-east-2.compute.amazonaws.com:1337/api/goals/currentweek/wednesday  
-http://ec2-18-222-12-247.us-east-2.compute.amazonaws.com:1337/api/goals/currentweek/thursday  
-http://ec2-18-222-12-247.us-east-2.compute.amazonaws.com:1337/api/goals/currentweek/friday  
-http://ec2-18-222-12-247.us-east-2.compute.amazonaws.com:1337/api/goals/currentweek/saturday  
-http://ec2-18-222-12-247.us-east-2.compute.amazonaws.com:1337/api/goals/currentweek/sunday  
+https://dev.akila.ai/api/goals/currentweek/monday  
+https://dev.akila.ai/api/goals/currentweek/tuesday  
+https://dev.akila.ai/api/goals/currentweek/wednesday  
+https://dev.akila.ai/api/goals/currentweek/thursday  
+https://dev.akila.ai/api/goals/currentweek/friday  
+https://dev.akila.ai/api/goals/currentweek/saturday  
+https://dev.akila.ai/api/goals/currentweek/sunday  
 
+meal plans:  
+
+https://dev.akila.ai/api/goals/currentweek/mealplans
+https://dev.akila.ai/api/goals/currentweek/mealplans/monday
+https://dev.akila.ai/api/goals/currentweek/mealplans/tuesday
+https://dev.akila.ai/api/goals/currentweek/mealplans/wednesday
+https://dev.akila.ai/api/goals/currentweek/mealplans/thursday
+https://dev.akila.ai/api/goals/currentweek/mealplans/friday
+https://dev.akila.ai/api/goals/currentweek/mealplans/saturday
+https://dev.akila.ai/api/goals/currentweek/mealplans/sunday
