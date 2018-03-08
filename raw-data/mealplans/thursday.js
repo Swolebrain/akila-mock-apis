@@ -59,14 +59,14 @@ module.exports =  {
   },
   "shoppinglist": [
     {
-      "itemname": "English muffin with peanut butter",
+      "itemname": "Steak and eggs",
       "foodsection": "bf",
       "quantity": 1,
-      "calories": 150,
+      "calories": 750,
       "macronutrients": [
         {
           "type": "carbs",
-          "percentage": 40,
+          "percentage": 0,
           "color": "green"
         },
         {
@@ -76,30 +76,30 @@ module.exports =  {
         },
         {
           "type": "fatgrams",
-          "percentage": 10,
+          "percentage": 50,
           "color": "red"
         }
       ]
     },
     {
-      "itemname": "Pancakes",
+      "itemname": "OJ",
       "foodsection": "bf",
       "quantity": 1,
       "calories": 150,
       "macronutrients": [
         {
           "type": "carbs",
-          "percentage": 40,
+          "percentage": 100,
           "color": "green"
         },
         {
           "type": "proteins",
-          "percentage": 50,
+          "percentage": 0,
           "color": "green"
         },
         {
           "type": "fatgrams",
-          "percentage": 10,
+          "percentage": 0,
           "color": "red"
         }
       ]
