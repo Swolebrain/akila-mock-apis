@@ -17,6 +17,7 @@ module.exports =  {
         {
           "week": 3,
           "weekscaldeficit": 800,
+          "weekscalbudget": 1600,
           "shoppinglist": [
             {
               "sendtostore": "y",
