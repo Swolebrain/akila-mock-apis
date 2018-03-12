@@ -57,6 +57,7 @@ const routeMap = {
   "/api/goals/currentweek/saturday": require(__dirname + "/raw-data/goals/saturday.js"),
   "/api/goals/currentweek/sunday": require(__dirname + "/raw-data/goals/sunday.js"),
   //goals - activity plans
+  "/api/activitychoices" : require(__dirname + "/raw-data/activitychoices.js"),
   "/api/goals/currentweek/activityplan" : require(__dirname + "/raw-data/activityplans/combined.js"),
   "/api/goals/currentweek/activityplan/monday" : require(__dirname + "/raw-data/activityplans/monday.js"),
   "/api/goals/currentweek/activityplan/tuesday" : require(__dirname + "/raw-data/activityplans/tuesday.js"),
@@ -73,7 +74,17 @@ const routeMap = {
   "/api/goals/currentweek/mealplans/thursday" : require(__dirname + "/raw-data/mealplans/thursday.js"),
   "/api/goals/currentweek/mealplans/friday" : require(__dirname + "/raw-data/mealplans/friday.js"),
   "/api/goals/currentweek/mealplans/saturday" : require(__dirname + "/raw-data/mealplans/saturday.js"),
-  "/api/goals/currentweek/mealplans/sunday" : require(__dirname + "/raw-data/mealplans/sunday.js")
+  "/api/goals/currentweek/mealplans/sunday" : require(__dirname + "/raw-data/mealplans/sunday.js"),
+  //goals-exercise plans
+  "/api/exercisechoices" : require(__dirname + "/raw-data/exercisechoices.js"),
+  "/api/goals/currentweek/exerciseplan" : require(__dirname + "/raw-data/exerciseplans/combined.js"),
+  "/api/goals/currentweek/exerciseplan/monday" : require(__dirname + "/raw-data/exerciseplans/monday.js"),
+  "/api/goals/currentweek/exerciseplan/tuesday" : require(__dirname + "/raw-data/exerciseplans/tuesday.js"),
+  "/api/goals/currentweek/exerciseplan/wednesday" : require(__dirname + "/raw-data/exerciseplans/wednesday.js"),
+  "/api/goals/currentweek/exerciseplan/thursday" : require(__dirname + "/raw-data/exerciseplans/thursday.js"),
+  "/api/goals/currentweek/exerciseplan/friday" : require(__dirname + "/raw-data/exerciseplans/friday.js"),
+  "/api/goals/currentweek/exerciseplan/saturday" : require(__dirname + "/raw-data/exerciseplans/saturday.js"),
+  "/api/goals/currentweek/exerciseplan/sunday" : require(__dirname + "/raw-data/exerciseplans/sunday.js"),
 };
 
 for (let route in routeMap)

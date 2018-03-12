@@ -1,14 +1,10 @@
 module.exports =  {
   "activitychoices": [
     {
-      "itemname": "Steps",
-      "quantity": 1000,
-      "calories": 150
+      "itemname": "Steps"
     },
     {
-      "itemname": "Stairs",
-      "quantity": 1,
-      "calories": 15
+      "itemname": "Stairs"
     }
   ],
   // "maylikes": [
