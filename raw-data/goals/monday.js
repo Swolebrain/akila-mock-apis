@@ -1,4 +1,5 @@
 module.exports =  {
+  "caloriegoal": 1701,
   "caloriedeficit": {
     "food": {
       "goal": 400,

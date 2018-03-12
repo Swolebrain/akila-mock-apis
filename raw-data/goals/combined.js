@@ -1,5 +1,6 @@
 module.exports = {
   "sunday": {
+    "caloriegoal": 1700,
     "caloriedeficit": {
       "food": {
         "goal": 400,
@@ -22,6 +23,7 @@ module.exports = {
     }
   },
   "monday": {
+    "caloriegoal": 1700,
     "caloriedeficit": {
       "food": {
         "goal": 400,
@@ -44,6 +46,7 @@ module.exports = {
     }
   },
   "tuesday": {
+    "caloriegoal": 1700,
     "caloriedeficit": {
       "food": {
         "goal": 400,
@@ -66,6 +69,7 @@ module.exports = {
     }
   },
   "wednesday": {
+    "caloriegoal": 1700,
     "caloriedeficit": {
       "food": {
         "goal": 400,
@@ -88,6 +92,7 @@ module.exports = {
     }
   },
   "thursday": {
+    "caloriegoal": 1700,
     "caloriedeficit": {
       "food": {
         "goal": 400,
@@ -110,6 +115,7 @@ module.exports = {
     }
   },
   "friday": {
+    "caloriegoal": 1700,
     "caloriedeficit": {
       "food": {
         "goal": 400,
@@ -132,6 +138,7 @@ module.exports = {
     }
   },
   "saturday": {
+    "caloriegoal": 1700,
     "caloriedeficit": {
       "food": {
         "goal": 400,
