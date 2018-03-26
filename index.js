@@ -61,7 +61,7 @@ const routeMap = {
   "/api/insights/health/:weeknum/friday": require(__dirname + "/raw-data/insights/health/weekly.js"),
   "/api/insights/health/:weeknum/saturday": require(__dirname + "/raw-data/insights/health/weekly.js"),
   "/api/insights/health/:weeknum/sunday": require(__dirname + "/raw-data/insights/health/weekly.js"),
-  "/api/insights/activity/:weeknum/moday": require(__dirname + "/raw-data/insights/activity/weekly.js"),
+  "/api/insights/activity/:weeknum/monday": require(__dirname + "/raw-data/insights/activity/weekly.js"),
   "/api/insights/activity/:weeknum/tuesday": require(__dirname + "/raw-data/insights/activity/weekly.js"),
   "/api/insights/activity/:weeknum/wednesday": require(__dirname + "/raw-data/insights/activity/weekly.js"),
   "/api/insights/activity/:weeknum/thursday": require(__dirname + "/raw-data/insights/activity/weekly.js"),
