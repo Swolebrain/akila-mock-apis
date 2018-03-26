@@ -3,7 +3,15 @@
 *This repository requires additional data. You need a .sendmail-apikey.js file containing the sendmail api key, a .port.js file with the https port number, and a .cert.pem file with the auth0 certificate.*
 
 
-List of endpoints:
+## Authorization overview
+
+The following document lists authorization details (jwt using Auth0).
+
+## SendinBlue email service
+
+Seninblue is the cloud-based solution we use for sending transactional emails in this project. The username for sendinblue is akilalabnyc@gmail.com.
+
+## List of endpoints:
 
 home:
 
