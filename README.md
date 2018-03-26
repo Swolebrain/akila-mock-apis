@@ -5,7 +5,9 @@
 
 ## Authorization overview
 
-The following document lists authorization details (jwt using Auth0).
+The following document lists authorization details (jwt using Auth0):
+
+https://docs.google.com/document/d/1T3K9PaR-AdMibTYfE1LKPVnve-IWDKLRX0Lpcc0r7cs/edit?usp=sharing
 
 ## SendinBlue email service
 
